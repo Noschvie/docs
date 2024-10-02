@@ -1907,7 +1907,7 @@ As example, to be used on a Sonoff TH10 with Sensor Si7021
 
 This example turn on and off an output based on the temperature value and the upper set point and the lower set point.
 It waits until is enabled by pressing the button or by mqtt message 1 to mem1. This value is remembered. So if power cycle occurs, will resume operation.
-The set point values can be changed on the fly by mqtt or console commands
+The set point values can be changed on the fly by mqtt or console commands.
 If the Temperature sensor disconnects, the outputs will shutdown until the sensor is back again and will resume operation.
 When the device is power up, the thermostat also waits until the sensor value to resume operation.
 
